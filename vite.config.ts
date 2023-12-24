@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/gh-pages-ga/',
+  base:'/GithubAcions/',
   plugins: [react()],
   test: {
     environment: "jsdom",
