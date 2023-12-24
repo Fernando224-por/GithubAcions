@@ -17,8 +17,6 @@ jobs:
           node-version: 20
       - name: install dependecies
         run: npm i
-      - name: run dev
-        run: npm run dev
       - name: run test
         run: npm run test
       - name: Build Production
